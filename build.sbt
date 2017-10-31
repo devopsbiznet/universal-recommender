@@ -45,7 +45,7 @@ libraryDependencies ++= Seq(
   .map(_.exclude("org.apache.lucene","lucene-core")).map(_.exclude("org.apache.lucene","lucene-analyzers-common"))
 
 
-resolvers += "Local Repository" at "file:///Users/pat/.custom-scala-m2/repo"
+//resolvers += "Local Repository" at "file:///Users/pat/.custom-scala-m2/repo"
 
 resolvers += Resolver.mavenLocal
 
