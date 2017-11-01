@@ -190,7 +190,6 @@ object EsClient {
               s"""
               |    : {
               |      "type": "${`type`}",
-              |      "index": "not_analyzed",
               |      "norms" : "${`normsEnabled`}"
               |    },
               """.stripMargin.replace("\n", "")
